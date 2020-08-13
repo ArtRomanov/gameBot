@@ -8,7 +8,7 @@ function getRandomInt() {
     let min = Math.ceil(0);
     let max = Math.floor(101);
     let target = Math.floor(Math.random() * (max - min)) + min; 
-    console.log(target);
+
     
     function two (target){
         let question = prompt('Угадай число от 1 до 100');
@@ -27,12 +27,8 @@ function getRandomInt() {
             } else{
                 alert('Ты угадал!');
             }
-
         }
-    
-    console.log(question);
     }
-    
     two(target);
 }
  let num = getRandomInt();
